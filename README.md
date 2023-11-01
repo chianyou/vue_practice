@@ -105,13 +105,13 @@ const count = ref(0)
 ```vue-html
 const count = ref(0)
 
-//console.log()列印count的值
+// 使用 console.log() 列印 count 變量
 console.log(count) // { value: 0 }
 
-
-const state = reactive({ count: 0 })
+// 使用 .value 屬性來訪問 count 的值
 console.log(count.value) // 0
 
+// 增加count的值
 count.value++
 console.log(count.value) // 1
 ```
